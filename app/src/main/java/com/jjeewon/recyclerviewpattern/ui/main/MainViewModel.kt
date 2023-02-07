@@ -3,11 +3,9 @@ package com.jjeewon.recyclerviewpattern.ui.main
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.jjeewon.recyclerviewpattern.data.model.User
-import com.jjeewon.recyclerviewpattern.data.repository.MainRepository
 import com.jjeewon.recyclerviewpattern.data.usecase.GetUserListUseCase
 import com.jjeewon.recyclerviewpattern.utils.NetworkHelper
 import com.jjeewon.recyclerviewpattern.utils.Resource
-import com.jjeewon.recyclerviewpattern.utils.Status
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
